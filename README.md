@@ -8,14 +8,14 @@ SmartControl with Alexa is an innovative IoT project designed to provide hands-f
 ## Components Required
 
 1. ESP32 Dev Module
-2. Two-channel 10-amp relay module
-3. DHT11 sensor (temperature and humidity)
-4. Resistive soil moisture sensor
-5. Jumper wires and breadboard
-6. Power supply for ESP32 and relay module
-7. Laptop or computer with Arduino IDE installed
-8. Sinric Pro account and Alexa device/application
-
+2. ESP32 USB cable
+3. Two-channel 10-amp relay module
+4. DHT11 sensor (temperature and humidity)
+5. Resistive soil moisture sensor
+6. Jumper wires and breadboard
+7. Water Pump
+8. DC Submersible Mini Water Pump
+9. 5V Power Bank / Charger Brick for Water Pump 
 ---
 
 ## Setup Steps for SmartControl with Alexa
@@ -156,34 +156,39 @@ Once all devices are created, you are ready to proceed to the next step of integ
 ### Configuring the Alexa Application
 
 1. **Enable Sinric Pro Skill**  
-   Open the **Skills & Games** section in the Alexa app and search for the **Sinric Pro Skill**.  
-   Enable it by signing in with the same account used for your Sinric Pro configuration.  
 
-   ![Image 1](Images/Alexa_Images/Image1.jpg)  
+   - Open the **Skills & Games** section in the Alexa app and search for the **Sinric Pro Skill**.  
+     Enable it by signing in with the same account used for your Sinric Pro configuration.  
 
-   Once linked successfully, you will see a confirmation message.  
+     ![Image 1](Images/Alexa_Images/Image1.jpg)  
 
-   ![Image 2](Images/Alexa_Images/Image2.jpg)
+   - Once linked successfully, you will see a confirmation message.  
 
-2. **Device Discovery**  
-   After linking Sinric Pro, click on **Next**, and Alexa will automatically detect the three devices that were configured.  
+     ![Image 2](Images/Alexa_Images/Image2.jpg)
 
-   ![Image 3](Images/Alexa_Images/Image3.jpg)  
-   ![Image 3.5](Images/Alexa_Images/Image3'.jpg)
+2. **Device Discovery** 
+
+   - After linking Sinric Pro, click on **Next**, and Alexa will automatically detect the three devices that were configured.  
+
+     ![Image 3](Images/Alexa_Images/Image3.jpg)  
+     ![Image 3.5](Images/Alexa_Images/Image3'.jpg)
 
 3. **Configuring the Bulb Using FauxmoESP**  
-   To configure the bulb, click on **Add Device** and select the **Other** option at the bottom of the list.  
 
-   ![Image 4](Images/Alexa_Images/Image4.jpg)
+   - To configure the bulb, click on **Add Device** and select the **Other** option at the bottom of the list.  
+
+     ![Image 4](Images/Alexa_Images/Image4.jpg)
 
 4. **Selecting the Wi-Fi Option**  
-   Choose the **Wi-Fi** option to continue the setup.  
 
-   ![Image 5](Images/Alexa_Images/Image5.jpg)
+   - Choose the **Wi-Fi** option to continue the setup.  
+
+     ![Image 5](Images/Alexa_Images/Image5.jpg)
 
 5. **Automatic Bulb Connection**  
-   The bulb will connect automatically.  
-   Ensure that the ESP setup is active before connecting the bulb through FauxmoESP.
+
+   - The bulb will connect automatically.  
+   - Ensure that the ESP setup is active before connecting the bulb through FauxmoESP.
 ---
 
 ### Step 8: Control Devices
