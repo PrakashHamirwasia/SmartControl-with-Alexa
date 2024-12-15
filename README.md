@@ -101,7 +101,8 @@ You’re now ready to upload code to your ESP32!
      ![Image 9](Images/Img9.png)  
 
 6. **Note the Device IDs and Credentials**  
-   - Note down the **Device IDs** for each device created.  
+   - Note down the **Device IDs** for each device created. 
+    
      ![Image 10](Images/Img10.png)  
    - The **App Key** and **App Secret** will remain the same for all devices.  
 
