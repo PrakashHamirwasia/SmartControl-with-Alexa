@@ -90,8 +90,8 @@ You’re now ready to upload code to your ESP32!
    - Add **Mode** and **Range Capabilities** to the device:  
      ![Image 6](Images/Img6.png)  
      - Configure these fields according to the details provided in the following images:  
-       <img src="Images/Img7.png" height="50%">
-       <img src="Images/Img8.png" height="50%">
+       <img src="Images/Img7.png" height="20%">
+       <img src="Images/Img8.png" height="20%">
  
    - Click **Save** to finalize the template.  
 
