@@ -36,7 +36,7 @@ Download and install the Arduino IDE from the official website:
 #### 3. Install USB-to-Serial Drivers (if needed)
 If your ESP32 board doesn't connect automatically, install drivers for its USB chip:  
 - **CP210x**: [Download from Silicon Labs](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)  
-- **CH340**: [Download from WCH](http://www.wch.cn/downloads/CH341SER_EXE.html)  
+- **CH340**: [Download from Arduined](https://www.arduined.eu/ch340-windows-10-driver-download/)  
 - Linux and newer macOS versions typically have these drivers pre-installed.
 
 #### 4. Connect ESP32 to Computer
@@ -54,7 +54,7 @@ You’re now ready to upload code to your ESP32!
 
 1. Visit the GitHub repository containing the project code (provide the GitHub link here).
 2. Download the repository as a ZIP file or clone it using:  
-   `git clone <repository-link>`
+   `git clone <https://github.com/PrakashHamirwasia/SmartControl-with-Alexa.git>`
 3. Extract the ZIP file (if downloaded) and open the `.ino` file in Arduino IDE.
 
 ---
@@ -106,7 +106,7 @@ You’re now ready to upload code to your ESP32!
 
 5. **Add a Device for Soil Moisture Sensor**  
    - After creating the template, add a new device and select **Capacitive Soil Moisture Sensor** as the **Device Type**.  
-   - Provide a **Device Name** (e.g., *Soil Moisture Sensor*), **Description**, and click **Save**.  
+   - Provide a **Device Name** (e.g., *Garden*), **Description** (e.g., *My Garden*), and click **Save**.  
 
      ![Image 9](Images/SinricPro_Images/Img9.png)  
 
@@ -199,6 +199,12 @@ Once everything is set up, the devices connected to Sinric Pro and fauxmoESP can
 - The Alexa application.
 - Alexa-enabled devices through voice commands.
 
+- The following utterances for Alexa device can be used to control the devices
+  - "Alexa , Turn on "Smart Bulb" "
+  - "Alexa , What is the reading of Temperature Sensor? "
+  - "Alexa , Turn on "Water Pump" "  (The Water Pump will turn OFF instantly)
+     [Here if the sensor is properly attatched to the soil then if the soil gets dry , the sensor will automatically turn ON the pump
+     Now since the soil is moist all the time when it is turned on manually using voice or Application it will turn off automatically]
 ---
 
 Enjoy the convenience of voice-controlled automation with SmartControl with Alexa!
