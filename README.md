@@ -90,8 +90,9 @@ You’re now ready to upload code to your ESP32!
    - Add **Mode** and **Range Capabilities** to the device:  
      ![Image 6](Images/Img6.png)  
      - Configure these fields according to the details provided in the following images:  
-       ![Image 7](Images/Img7.png)  
-       ![Image 8](Images/Img8.png)  
+       <img src="Images/Img7.png" height="50%">
+       <img src="Images/Img8.png" height="50%">
+ 
    - Click **Save** to finalize the template.  
 
 5. **Add a Device for Soil Moisture Sensor**  
@@ -142,22 +143,22 @@ Once all devices are created, you are ready to proceed to the next step of integ
 1. **Enable Sinric Pro Skill**  
    Open the **Skills & Games** section in the Alexa app and search for the **Sinric Pro Skill**.  
    Enable it by signing in with the same account used for your Sinric Pro configuration.  
-   ![Image 1](Images/Image1.png)  
+   ![Image 1](Images/Image1.jpg)  
    Once linked successfully, you will see a confirmation message.  
-   ![Image 2](Images/Image2.png)
+   ![Image 2](Images/Image2.jpg)
 
 2. **Device Discovery**  
    After linking Sinric Pro, click on **Next**, and Alexa will automatically detect the three devices that were configured.  
-   ![Image 3](Images/Image3.png)
-   ![Image 3.5](Images/Image3.5.png)
+   ![Image 3](Images/Image3.jpg)
+   ![Image 3.5](Images/Image3.5.jpg)
 
 3. **Configuring the Bulb Using FauxmoESP**  
    To configure the bulb, click on **Add Device** and select the **Other** option at the bottom of the list.  
-   ![Image 4](Images/Image4.png)
+   ![Image 4](Images/Image4.jpg)
 
 4. **Selecting the Wi-Fi Option**  
    Choose the **Wi-Fi** option to continue the setup.  
-   ![Image 5](Images/Image5.png)
+   ![Image 5](Images/Image5.jpg)
 
 5. **Automatic Bulb Connection**  
    The bulb will connect automatically.  
